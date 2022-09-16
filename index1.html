@@ -23,7 +23,7 @@
             <span class="visible-xs titre-site" id="titre-site-xs">E.S.I.S.</span> 
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-1"> 
                 <!-- permet de changer la barre de navigation en fonction de la taille de la fenetre  -->
-                <span class="sr-only">Toggle navigation</span><!-- pour masquer visuellement les information utilusees uniauement pour les lecteurs d'ecran --> 
+                <span class="sr-only">barre de navigation</span><!-- pour masquer visuellement les information utilusees uniauement pour les lecteurs d'ecran --> 
                 <span class="icon-bar"></span><!-- La balise span est un conteneur generique en ligne  --> 
                 <span class="icon-bar"></span> 
                 <span class="icon-bar"></span> 
@@ -47,15 +47,19 @@
                     </span> Education <span class="caret">
                     </span> </a>     
                 <ul class="dropdown-menu"> <!--<li><a href="index.php?module=calendrier">
-                    Calendrier académique</a></li>--> 
-                    <li><a href="#">Horaire des cours</a></li> <!--<li><a href="index.php?module=apropos&amp;onglet=cursus#filieres">Filières</a></li>--> 
-                    <li><a href="#">Centre d'Excellence</a></li> 
-                    <li><a href="#">Bibliothèque</a></li> 
-                    <li><a href="#" target="_blank">Publication résultats</a></li> 
-                    <li><a href="#" target="_blank">Recours</a></li> 
-                    <li><a href="#" target="_blank">E-learning</a></li> <!--<li><a href="https://recours.credia.io" target="_blank">Recours</a></li>--> 
-                    <li><a href="#" target="_blank">Suivi TFC</a></li> 
-                    <li><a href="#">Journée Scientifique 2022</a></li> 
+                    Calendrier académique</a></li>-->
+                    <input type="select">
+                        <option value="hr"><li><a href="horaire.html">Horaire des cours</a></li></option>
+                        <option value=""><li><a href="index2.html">Centre d'Excellence</a></li></option>                     
+                        <option value=""><li><a href="bibliotheque.html">Bibliothèque</a></li> </option>                     
+                        <option value=""><li><a href="#" target="_blank">Publication résultats</a></li></option>                     
+                        <option value=""><li><a href="#" target="_blank">Recours</a></li></option>                     
+                        <option value=""><li><a href="#" target="_blank">E-learning</a></li></option>                     
+                        <option value=""><li><a href="#" target="_blank">Suivi TFC</a></li> </option>                     
+                        <option value=""><li><a href="#">Journée Scientifique 2022</a></li></option>                     
+                    </input>                        
+                        <!--<li><a href="index.php?module=apropos&amp;onglet=cursus#filieres">Filières</a></li>--> 
+         <!--<li><a href="https://recours.credia.io" target="_blank">Recours</a></li>-->     
                 </ul>
              </li> 
                 <li role="presentation" class=""> <a href="#" id="menu-actualite">
@@ -73,7 +77,7 @@
                 </ul> 
             </div> <!--/.collapse--> 
         </div> <!--/.container--> 
-    </nav> <!-- Facebook Pixel Code -->
+    </nav> 
 <!-- Carousel --> 
 <div class="container-fluid" id="cadre-carousel"> 
     <div id="CarouselPrincipal" class="carousel slide" data-ride="carousel"> 
@@ -131,7 +135,7 @@
                 <div class="row"> 
                     <div class="col-xs-12"> 
                         <div class="en-tete-page">
-                            <h2 class="">Actualités<small><a href="?module=actualite">Voir toutes</a> </small> </h2> 
+                            <h2 class="">Actualités<small><a href="index_actualites.html">Voir toutes</a> </small> </h2> 
                         </div>
                     </div>
                 </div>
@@ -150,7 +154,7 @@
                                                   Mot de bienvenue DG - Mot du représentant du ministre de l’ESU - 
                                                   Mot du [...]</div> 
                                             <div> 
-                                                <a href="?module=actualite&amp;id_actu=83" class="btn btn-primary" role="button">Lire plus</a> 
+                                                <a href="index_actualites.html" class="btn btn-primary" role="button">Lire plus</a> 
                                             </div> 
                                         </div> 
                                     </div> 
@@ -165,7 +169,7 @@
                                                 venue tenir une conférence sur les opportunités de stage et d’emploi y offertes. 
                                                 La délégation était conduite par Madame Ndèye Oulimata NDIONGUE, du b [...]</div> 
                                                 <div> 
-                                                    <a href="?module=actualite&amp;id_actu=82" class="btn btn-primary" role="button">Lire plus</a> 
+                                                    <a href="index_actualites.html" class="btn btn-primary" role="button">Lire plus</a> 
                                                 </div> 
                                             </div> 
                                         </div>
@@ -181,7 +185,7 @@
                                                     <div>Les travaux de construction du premier niveau du Bloc A ont démarré cette année.
                                                          Contrairement à la maquette initiale qui prévoyait la construction de deux niveaux supplémentaires, en dehors du rez de chaussée, un seu [...]</div> 
                                                          <div> 
-                                                            <a href="?module=actualite&amp;id_actu=81" class="btn btn-primary" role="button">Lire plus</a> 
+                                                            <a href="index_actualites.html" class="btn btn-primary" role="button">Lire plus</a> 
                                                         </div> 
                                                     </div> 
                                                 </div> 
@@ -198,7 +202,7 @@
                                                             SALAMA la fête de Mari [...]
                                                         </div> 
                                                         <div> 
-                                                            <a href="?module=actualite&amp;id_actu=80" class="btn btn-primary" role="button">Lire plus</a> 
+                                                            <a href="index_actualites.html" class="btn btn-primary" role="button">Lire plus</a> 
                                                         </div> 
                                                     </div> 
                                                 </div> 
