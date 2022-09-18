@@ -32,3 +32,25 @@
  et des menus contextuels. Il a conçu les généralisations de BitBlt à une profondeur de couleur arbitraire, avec une mise à l’échelle,
  une rotation et un anticrénelage intégrés. Il a apporté des contributions majeures à la version Squeak de Smalltalk,
  y compris le concept original d’un Smalltalk écrit en lui-même et rendu portable et efficace par un traducteur Smalltalk-to-C.
+ Nous allons devoir parler de quelques points sur DAN INGALLS :
+ 
+ ##EDUCATION
+ 
+Dan Ingalls a obtenu son bachelor of arts (BA)en physique de Harvard university et son master of science (MS)en génie électrique de l’université de Stanford.
+Tout en travaillant pour devenir un docteur en philosophie (PH. D)à Stanford, il a créé une entreprise pour vendre une invention de mesure logicielle qu’il avait perfectionnée, et n est jamais retourne dans le monde universitaire.
+
+##TRAVAIL
+
+La première recherche bien connue de DAN INGALLS a eu lieu au Xerox parc, où il a commencé une association de recherche permanente avec Alan Kay, et a fait son travail prime sur smalltalk.et ensuite il a déménagé chez APPLE INC.il a quitte la recherche pendant un certain temps pour diriger l’entreprise familiale, le homestead resort, a hot Springs, virginie. Après ça il est retourne chez Apple ou il a développé FABRICK un langage de programmation visuel et environnement de développement intégré (IDE)…
+
+##RECOMPENSES
+
+       En 1984, DAN INGALLS a reçu l’association for computing machinery (ACM)prix grace Murray Hopper pour le jeune scientifique exceptionnel, pour son recherche          Xerox parc, y compris bit bit.Pour son travail sur Small talk, le, le premier système logiciel de programmation entièrement oriente objet, il a reçu un ACM          Software System Awards.
+       
+##BIBLIOGRAPHIE
+
+        Dan ingalls bio biographie sur le site squeak
+       Floss entretien hebdomadaire avec DAN INGALLS 
+       Ingalls Daniel (1975) note inter bureaux sana titre du 19 novembre 1975, xerox parc
+
+
