@@ -7,21 +7,42 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
         crossorigin="anonymous"> 
-        <link href="assets/css/esisalama.min.css" rel="stylesheet" type="text/css" /> 
-        <link href="assets/img/favicon.png" rel="icon" type="image/png" />
-         <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
-         <![endif]--> 
-         </head> 
+        
+         </head>
+         
+         <!-- le style css-->
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-shadow: 0;
+    }
+    .logo{
+        width: 70px;
+        border-radius: 10px;
+    }
+    .row{
+        width: 200vh; 
+    }
+    .navbar{
+        background-color: #2aa9db;
+    }
+    .accueil{
+        background-color: #2aa9db;
+    }
+</style> 
          <body> 
-            <!-- Barre de navigation/menu --> 
+            <!-- Barre de navigation --> 
             <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container"> 
                     <!-- Logo et bouton toggle --> 
                     <div class="navbar-header"> 
-                        <a class="navbar-brand" href="#"> <img src="assets/img/logo.png" alt="logo"/> </a> 
+                        <a class="navbar-brand" href="#"> 
+                            <img src="img/logo_esis.jpg" alt="logo" class="logo"/> </a> 
                         <span class="visible-xs titre-site" id="titre-site-xs">E.S.I.S.</span> 
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-1"> 
-                            <span class="sr-only">Toggle navigation</span> 
+                            <span class="sr-only"> navigation</span> 
                             <span class="icon-bar"></span> 
                             <span class="icon-bar"></span> 
                             <span class="icon-bar"></span> 
@@ -34,57 +55,57 @@
                         <p class="navbar-left visible-sm visible-md titre-site"> E.S.I.S. </p> 
                         <ul class="nav navbar-nav navbar-right"> 
                             <li role="presentation" class=""> 
-                                <a href="index.php" id="menu-accueil"><span class="glyphicon glyphicon-home"></span> Accueil</a> </li> 
+                                <a href="#" id="menu-accueil"><span class="glyphicon glyphicon-home"></span> Accueil</a> </li> 
                                 <li class="dropdown active" role="presentation"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true"> 
                                     <span class="glyphicon glyphicon-book"></span> Education <span class="caret"></span> 
                                     </a> 
                                     <ul class="dropdown-menu"> 
-                                        <!--<li><a href="index.php?module=calendrier">Calendrier académique</a></li>--> 
+                                         
                                         <li>
-                                            <a href="index.php?module=horaire">Horaire des cours</a>
+                                            <a href="horaire.html">Horaire des cours</a>
                                         </li> 
-                                        <!--<li><a href="index.php?module=apropos&amp;onglet=cursus#filieres">Filières</a></li>--> 
+                                        
                                         <li>
-                                            <a href="index.php?module=centre">Centre d'Excellence</a>
-                                        </li> 
-                                        <li>
-                                            <a href="index.php?module=biblio">Bibliothèque</a>
+                                            <a href="index2.html">Centre d'Excellence</a>
                                         </li> 
                                         <li>
-                                            <a href="https://www.esisalama.org/publication" target="_blank">Publication résultats</a>
+                                            <a href="bibliotheque.html">Bibliothèque</a>
                                         </li> 
                                         <li>
-                                            <a href="https://script.google.com/a/macros/esisalama.org/s/AKfycbxtpNT6IbxrkHwV8fMTOQZLomGfk8fKRyob9QnChn5ex2wQ_bOpbVMEgb2dllogf8qMIg/exec" target="_blank">Recours</a>
+                                            <a href="#" target="_blank">Publication résultats</a>
                                         </li> 
                                         <li>
-                                            <a href="https://www.esisalama.net/elearning/" target="_blank">E-learning</a>
-                                        </li> 
-                                        <!--<li><a href="https://recours.credia.io" target="_blank">Recours</a></li>--> 
-                                        <li>
-                                            <a href="https://colibris.credia.io" target="_blank">Suivi TFC</a>
+                                            <a href="#" target="_blank">Recours</a>
                                         </li> 
                                         <li>
-                                            <a href="https://jsesis2022.esisalama.com/js3sis2022/">Journée Scientifique 2022</a>
+                                            <a href="#" target="_blank">E-learning</a>
+                                        </li> 
+                                         
+                                        <li>
+                                            <a href="#" target="_blank">Suivi TFC</a>
+                                        </li> 
+                                        <li>
+                                            <a href="#">Journée Scientifique 2022</a>
                                         </li> 
                                     </ul>
                                  </li>
                              <li role="presentation" class=""> 
-                                <a href="index.php?module=actualite" id="menu-actualite"><span class="glyphicon glyphicon-list-alt"></span> Actualités</a> 
+                                <a href="index1.html" id="menu-actualite"><span class="glyphicon glyphicon-list-alt"></span> Actualités</a> 
                             </li> 
                             <li role="presentation" class="dropdown"> 
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true"> 
                                     <span class="glyphicon glyphicon-info-sign"></span> A propos d'esis <span class="caret"></span> </a> 
                                     <ul class="dropdown-menu" id="menu-a-propos"> 
                                         <li>
-                                            <a href="index.php?module=apropos&amp;onglet=presentation">Présentation</a>
+                                            <a href="index1.html">Présentation</a>
                                         </li> 
                                     <li>
-                                        <a href="index.php?module=apropos&amp;onglet=cursus">Cursus</a>
+                                        <a href="#">Cursus</a>
                                     </li> 
                             <li>
-                                <a href="index.php?module=apropos&amp;onglet=admission">Admission</a></li> 
+                                <a href="#">Admission</a></li> 
                             <li>
-                                <a href="index.php?module=apropos&amp;onglet=contact">Nous contacter</a></li>
+                                <a href="#">Nous contacter</a></li>
                             </ul> 
                         </li> 
                     </ul> 
@@ -93,22 +114,6 @@
         </div> 
         <!--/.container--> 
     </nav> 
-    <!-- Facebook Pixel Code --> 
-    <script> 
-    !function(f,b,e,v,n,t,s) {if(f.fbq)return;n=f.fbq=function()
-        {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-         if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0; 
-          t.src=v;s=b.getElementsByTagName(e)[0]; 
-          s.parentNode.insertBefore(t,s)}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
-           fbq('init', '619752102038038'); 
-           fbq('track', 'PageView'); 
-        </script> 
-        <noscript>
-            <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=619752102038038&ev=PageView&noscript=1" />
-        </noscript> 
-        <!-- End Facebook Pixel Code --> 
-        <!--Titre de la page --> 
         <div class = "container-fluid titre-page titre-fixe-on"> 
             <div class = "row"> 
                 <div class = "col-xs-12 col-sm-6"> 
@@ -118,7 +123,7 @@
                 </div> 
             <div class = "col-xs-12 col-sm-6 text-right">
                 <ol class = "breadcrumb">
-                    <li><a href = "index.php">Accueil</a></li>
+                    <li><a href = "index2.html">Accueil</a></li>
                     <li>Centre</li>
                 </ol>
             </div>
@@ -126,9 +131,8 @@
     </div> 
     <div class="container-fluid cadre-principal"> 
         <div class="container" id="cadre-centre"> 
-            <div class="row text-center"> 
-                <img class="image-loader" src="assets/img/autres/image-loader-blue.gif" alt="" /> 
-                <img class="img-responsive image-dynamique" src="assets/img/carousel/banner_ces.jpg" alt="" /> 
+            <div class="row text-center">  
+                <img class="img-responsive image-dynamique" src="img/centre_excellence/head.jpg" alt="" /> 
             </div> 
             <div class="row"> 
                 <div class="col-xs-12"> 
@@ -179,10 +183,10 @@
                                     <p> Nous travaillons avec des partenaires internationaux pour faire valoir la formation 
                                         professionnelle au niveau mondial. </p> 
                                         <p class="text-center" id="centre-partenaires"> 
-                                            <img src="assets/img/autres/logo_netacad.png" class="img-thumbnail img-rounded" alt="Logo Netacad" /> 
-                                            <img src="assets/img/autres/logo_IC3_1.png" class="img-thumbnail img-rounded" alt="Logo IC3" /> 
-                                            <img src="assets/img/autres/logo_microsoft.png" class="img-thumbnail img-rounded" alt="Logo Microsoft" /> 
-                                            <img src="assets/img/autres/logo_certiport.png" class="img-thumbnail img-rounded" alt="Logo Certiport" /> 
+                                            <img src="img/centre_excellence/cisco.jpg" class="img-thumbnail img-rounded" alt="Logo cisco" /> 
+                                            <img src="img/centre_excellence/microsoft.jpg" class="img-thumbnail img-rounded" alt="Logo IC3" /> 
+                                            <img src="img/centre_excellence/microsoft.jpg" class="img-thumbnail img-rounded" alt="Logo Microsoft" /> 
+                                            <img src="img/centre_excellence/certip.jpg" class="img-thumbnail img-rounded" alt="Logo Certiport" /> 
                                         </p> 
                                     </div> 
                                     <div class="col-md-6"> 
@@ -214,18 +218,16 @@
                             </div> 
                         <div class="col-xs-12 col-md-4"> 
                             <h3 class="titre-pied">QUELQUES LIENS UTILES</h3> 
-                            <p><a href="index.php?module=horaire" >Horaires des cours</a></p> 
-                            <!--<p><a href="index.php?module=calendrier" >Calendrier académique</a></p>--> 
-                            <p><a href="index.php?module=actualite" >Voir actualités</a></p> 
+                            <p><a href="horaire.html" >Horaires des cours</a></p> 
+                         
+                            <p><a href="index_actualites.html" >Voir actualités</a></p> 
                             </div> 
                             <div class="col-xs-12 col-md-4"> 
                                 <h3 class="titre-pied">RESTONS CONNECTES</h3> 
-                                <p> <a href="https://www.google.com" target="_blank"> 
-                                    <img src="assets/img/autres/GooglePlus.svg" alt="logo GooglePlus" /> </a> 
-                                    <a href="https://www.facebook.com/EsisOfficiel" target="_blank"> 
-                                    <img src="assets/img/autres/Facebook.svg" alt="logo Facebook" /> </a> 
-                                    <a href="https://www.youtube.com/channel/UCtDV8isvHNC0fli1FjYB-Xw" target="_blank"> 
-                                        <img src="assets/img/autres/Youtube.svg" alt="logo Youtube" /> </a> 
+                                <p>     
+                                    <img src="img/gif/GooglePlus.svg" alt="logo GooglePlus" /> </a>  
+                                    <img src="img/gif/Facebook.svg" alt="logo Facebook" /> </a> 
+                                    <img src="img/gif/Youtube.svg" alt="logo Youtube" /> </a> 
                                 </p>
                             </div> 
                         </div> 
@@ -236,24 +238,7 @@
                         </div> 
                     </div> 
                 </footer> 
-                <!-- Inclusion fichiers JavaScript --> 
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
-                crossorigin="anonymous">
-                </script> 
-                <!--<script src="assets/js/esisalama.min.js" type="text/javascript">
-
-                </script>--> <!-- to delete --> 
-                <script src="assets/js/global.js" type="text/javascript"></script> 
-                <script src="assets/js/accueil.js" type="text/javascript"></script>
-                 <script src="assets/js/admin.js" type="text/javascript">
-    </script> 
-        <script src="assets/js/apropos.js" type="text/javascript">
-    </script> 
-    <script src="assets/js/calendrier.js" type="text/javascript"></script> 
-    
-    <script src="assets/js/horaire.js" type="text/javascript">
-    </script> <!-- to delete --> <!-- Ferméture Body & html --> 
+              
+                
 </body> 
 </html>
