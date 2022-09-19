@@ -10,7 +10,6 @@
   KALENGA MESA THEOPHILE
   KABEDI TSHIBANGU ELODIE
   MUNGA EDOUINE LYDIE
-  KAPEBA NGOY MARIE
   KALABA ILUNGA ALCYA (CHEF DE GROUPE)
   KAZADI DIESE BEN (ADJOINT)
   MPETA NDISHA PATRICIA (RAPPORTEUSE)
@@ -21,8 +20,9 @@
  le désintéressement de certains membre du groupe a l'egard de ce projet.
  Trvailler avec des inconnnues.
  le manque de communication entre les membres du groupe.
- Apprendre comment fonctionne bootstrap et l'utiliser au meme moment en un lapse de temps assez réduit.
- Faire un GitPush correctement
+ le fonctionnement correcte de bootstrap.
+ l'utilisation de javascript jusque la ca va pas encore.
+
  
  ##Histoire de Dan Ingalls
  
